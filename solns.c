@@ -4,7 +4,7 @@
 int max(int a[],int n)
 {  
   int i, x=a[0];
-  for(i=0;i<n:i++)
+  for(i=0;i<n;i++)
   {
      if(x<a[i]);
     x=a[i];
@@ -24,8 +24,9 @@ int max(int a[],int n)
   
   return x;
  }
-flost average(int a[],int n)
-{ int i, float sum=0;
+float average(int a[],int n)
+{ int i;
+ float sum=0;
  for(i=0;i<n;i++)
  {
    sum+=a[i];
@@ -38,7 +39,7 @@ flost average(int a[],int n)
   int factors(int n,int a[])
   {
     int i,j =0;
-    ont x=n;
+    int x=n;
     for (i=2;i<=n;i++)
     {
       a[j]=i;
@@ -53,12 +54,12 @@ flost average(int a[],int n)
  
   int mode(int a[],int n)
   { 
-    int i=0:
+    int i=0;
     int g=0;
     int x= max(a,n);
-    int y=min)(a,n);
-    int b[x+(y*-1)+1]
-      for (i=y,i<=x:i++)
+    int y= min)(a,n);
+    int b[x+(y*-1)+1];
+      for (i=y;i<=x;i++)
       { int k=0;
          for(int j=0;j<n;j++)
          {
