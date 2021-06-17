@@ -57,7 +57,7 @@ float average(int a[],int n)
     int i=0;
     int g=0;
     int x= max(a,n);
-    int y= min)(a,n);
+    int y= min(a,n);
     int b[x+(y*-1)+1];
       for (i=y;i<=x;i++)
       { int k=0;
